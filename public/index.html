@@ -11,6 +11,8 @@
         <meta property="og:image" content="https://api.alzhahir.com/static/favicon.png">
         <link rel="icon" type="image/png" href="https://api.alzhahir.com/static/favicon.png">
         <link rel="stylesheet" href="https://api.alzhahir.com/styles.css">
+        <link rel="stylesheet" href="./modal.css">
+        <script src="./modal.js"></script>
         <title>Welcome | Alzhahir Virtual Run</title>
     </head>
     <body>
@@ -19,7 +21,7 @@
                 <img class="alzlogo" src="https://api.alzhahir.com/static/images/logos/alzhahir/alz-logo-no-outline.png" alt="Website Logo">
             </a>
             <a href="https://mc.alz.moe" class="titletext">Virtual Run Event</a>
-            <button onclick="document.location='https://panel.mc.alz.moe'" type="button" class="headerButton">REGISTER NOW</button>
+            <button id="openModal" type="button" class="headerButton">REGISTER NOW</button>
         </div>
         <div class="contents">
             <div class="pageTitle">
@@ -30,7 +32,16 @@
                 Alzhahir Virtual Run is an event held every year. This program aims to connect people
                 together to ensure harmony in our current society.
             </p>
-            <img src="https://www.freepnglogos.com/uploads/running-png/running-about-bounding-plains-share-19.png" alt="Decoration image">
+            <img src="https://www.freepnglogos.com/uploads/running-png/running-about-bounding-plains-share-19.png" alt="Decoration image" style="display:block; width:60vw; padding:10px; margin-left:auto; margin-right:auto;">
+
+            <!-- The Modal -->
+            <div id="registerModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Test Modal</p>
+                </div>
+            </div>
         </div>
         <div class="footerBar">
             <span class="footerText">Copyright ©️ Megat Al Zhahir Daniel. More information about the privacy policy, terms of service, and disclaimers can be found </span><a class="pageLink" href="https://www.alzhahir.com">here</a>.
