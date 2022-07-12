@@ -14,8 +14,8 @@
   
   /* Modal Content/Box */
   .modal-content {
-    color: #000000;
-    background-color: #fefefe;
+    color: #ffffff;
+    background-color: #0a0a0a;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
@@ -35,4 +35,20 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  .label{
+    padding-bottom:10px;
+  }
+
+  .formField{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
   }
