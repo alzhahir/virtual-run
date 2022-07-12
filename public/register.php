@@ -27,4 +27,5 @@
 
         mysqli_stmt_close($stmt);
     }
+    header("refresh:0;url=success.html");
 ?>
